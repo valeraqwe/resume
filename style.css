@@ -45,7 +45,7 @@ a {
 }
 .item_title {
 	font-size: 1.6rem;
-	color: white;
+	color: var(--text-color);
 	font-weight: 500;
 	margin: 0.8rem 0;
 }
@@ -62,7 +62,7 @@ a {
 	margin: 0 auto;
 	display: grid;
 	padding: 5rem;
-	background: #070707;
+	background: whitesmoke;
 	grid-template-columns: 1fr 1fr;
 	gap: 4rem;
 }
@@ -114,7 +114,7 @@ a {
 	max-width: 250px;
 }
 .profile_name_firstName {
-	color: white;
+	color: var(--primary-color);
 	font-weight: 200;
 	font-size: clamp(2rem, 8vw, 4rem);
 	text-transform: uppercase;
@@ -132,12 +132,15 @@ a {
 	font-size: 1.5rem;
 	font-weight: 400;
 	text-transform: uppercase;
+	color: var(--text-color);
 }
 .downloadBtn {
 	display: block;
 	text-decoration: underline;
 	font-size: 1.6rem;
 	margin-top: 1rem;
+	color: var(--text-color);
+
 }
 .downloadBtn:hover {
 	color: var(--primary-color);
@@ -158,10 +161,13 @@ a {
 /* Ref  */
 .ref_item {
 	margin-top: 2rem;
+
 }
 .ref_name {
 	font-size: 1.6rem;
 	font-weight: 700;
+	color: var(--text-color);
+
 }
 
 /* eduction */
